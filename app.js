@@ -33,7 +33,7 @@ form.addEventListener("submit", function (event) {
         //5.1 if true then return a popup box
 
     // 6. if not correct then we tell them incorrect
-
+    
         // 6.1 if they input the same answer then don't count it and tell them "already guessed" with shaking text
     
 });
