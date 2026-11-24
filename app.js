@@ -8,11 +8,14 @@ console.log("Loaded");
 const form = document.querySelector("#guess-form"); // form contains the submit
 const responseInput = document.querySelector("#response");
 
-// loading Japanese vocab
-fetch("data/json/vocab/n5.json")
+//variables
+let todaysWord = null; // holds today's word of the day based on time
+let count = 0; // how many times the user got it wrong
+
+fetch(...)
   .then(res => res.json())
   .then(words => {
-    console.log(words);
+    todaysWord = words[0]; // later: pick by date
   });
 
 //expermentation
