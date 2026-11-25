@@ -12,10 +12,10 @@ const responseInput = document.querySelector("#response");
 let todaysWord = null; // holds today's word of the day based on time
 let count = 0; // how many times the user got it wrong
 
-fetch(...)
-  .then(res => res.json())
+fetch(...) // fetch resolves with res
+  .then(res => res.json()) // returns res.json()
   .then(words => {
-    todaysWord = words[0]; // later: pick by date
+    todaysWord = words[0]; // later: pick by date 
   });
 
 //expermentation
@@ -39,9 +39,16 @@ form.addEventListener("submit", function (event) {
     
     // 4. get user input
     const userGuess = responseInput.value;
+    const cleaned = userGuess.trim();
+
     // 5. compare what is on the page with what is in user input
 
-        //5.1 if true then return a popup box
+    if(cleaned === "今日"){
+      console.log("correct");
+    }
+    else{
+      console.log("incorrect");
+    }
 
     // 6. if not correct then we tell them incorrect
     
