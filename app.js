@@ -1,6 +1,6 @@
 //functions:
 // form.addEventListener();
-//
+// ты курищь?
 "use strict"; // "modern way" of javascript
 console.log("Loaded");
 
@@ -12,7 +12,7 @@ const responseInput = document.querySelector("#response");
 let todaysWord = null; // holds today's word of the day based on time
 let count = 0; // how many times the user got it wrong
 
-fetch("/data/words/n5.json") // fetch resolves with res
+fetch("/jlpt_daily/data/json/words/n5.json") // fetch resolves with res
   .then(res => res.json()) // returns res.json()
   .then(words => {
     todaysWord = words[0]; // later: pick by date 
