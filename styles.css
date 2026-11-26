@@ -15,3 +15,20 @@ body {
 .hidden {
   display: hidden;
 }
+
+/* ---- The board game design ---- */
+
+#lines {
+  display: flex;
+  flex-direction: column; /* with flex it sets everything inside of lines as columns */
+  gap: 8px;
+}
+
+.line {
+  font-size: 2rem;
+}
+
+  /* animating the characters later */
+.char {
+  display: inline-block; /* makes spans into something that can be animated in the future */
+}

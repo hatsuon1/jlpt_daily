@@ -1,6 +1,9 @@
 //functions:
 // form.addEventListener();
-// ты курищь?
+// TODO
+// design the game
+// randmize output based on date
+//
 "use strict"; // "modern way" of javascript
 console.log("Loaded");
 
