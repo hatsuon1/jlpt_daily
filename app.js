@@ -12,10 +12,12 @@ const responseInput = document.querySelector("#response");
 let todaysWord = null; // holds today's word of the day based on time
 let count = 0; // how many times the user got it wrong
 
+// a way to get data from .json files
 fetch("/jlpt_daily/data/json/words/n5.json") // fetch resolves with res
   .then(res => res.json()) // returns res.json()
   .then(words => {
-    todaysWord = words[0]; // later: pick by date 
+    todaysWord = words[0]; // later: pick by date
+    console.log(words[0]); // <<< FOR DEBUGGING PURPOSES >>>
     document.getElementById("change_text").textContent = todaysWord.FIELD;
   });
 
