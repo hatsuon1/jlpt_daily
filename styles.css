@@ -26,6 +26,13 @@ body {
 
 .line {
   font-size: 2rem;
+  width: 20rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 2rem;
+  border: 2px solid #999;
+  padding: 8px 12px;
+  border-radius: 6px;
 }
 
   /* animating the characters later */
