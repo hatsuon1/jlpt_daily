@@ -64,10 +64,7 @@ body {
 }
 
 /* submit button for player response */
-<!-- HTML !-->
-<button class="button-40" role="button">Button 40</button>
 
-/* CSS */
 #checking-response {
   background-color: #111827;
   border: 1px solid transparent;
