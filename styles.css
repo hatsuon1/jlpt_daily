@@ -12,6 +12,8 @@ body {
     gap: 0.75rem; /* adds spacing between h1, button and input box */
 }
 
+/* SANDWICH BUTTON TO HIDE ALLS THE buttons */
+
 .hidden {
   display: hidden;
 }
@@ -90,11 +92,11 @@ body {
   width: auto;
 }
 
-.checking-response:hover {
+#checking-response:hover {
   background-color: #374151;
 }
 
-.checking-response:focus {
+#checking-response:focus {
   box-shadow: none;
   outline: 2px solid transparent;
   outline-offset: 2px;
