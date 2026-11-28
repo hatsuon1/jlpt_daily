@@ -21,7 +21,7 @@ fetch("/jlpt_daily/data/json/words/n5.json") // fetch resolves with res
   .then(words => {
     todaysWord = words[0]; // later: pick by date
     console.log(words[0]); // <<< FOR DEBUGGING PURPOSES >>>
-    document.getElementById("change_text").textContent = todaysWord.FIELD;
+    document.getElementById("change-text").textContent = todaysWord.FIELD;
   });
 
 //expermentation
