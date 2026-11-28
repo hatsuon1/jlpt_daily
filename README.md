@@ -13,8 +13,9 @@ To test your Japanese knowledge from JLPT n5 to n1, and beyond. Where the user c
     2. maybe kanji hint meaning
 
 ## Future Plans & Dreams
-version 1.0
+version 0.1.0
 - filtering by jlpt level to be tested on
+- optional streak option 
 - add spelling hints
 - beautify the app
 

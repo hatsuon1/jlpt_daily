@@ -67,7 +67,7 @@ body {
 
 /* submit button for player response */
 
-#checking-response {
+.btn-checking-response {
   background-color: #111827;
   border: 1px solid transparent;
   border-radius: .75rem;
@@ -92,18 +92,18 @@ body {
   width: auto;
 }
 
-#checking-response:hover {
+.btn-checking-response:hover {
   background-color: #374151;
 }
 
-#checking-response:focus {
+.btn-checking-response:focus {
   box-shadow: none;
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
 
 @media (min-width: 768px) {
-  #checking-response {
+  .btn-checking-response {
     padding: .75rem 1.5rem;
   }
 }
