@@ -80,6 +80,7 @@ body {
   font-weight: 600;
   line-height: 1.5rem;
   padding: 12px 16px; /* top and bottom padding */
+  margin: 12 16px; /* it pushes other content away from this */
   text-align: center;
   text-decoration: none #6B7280 solid;
   text-decoration-thickness: auto;
