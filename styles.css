@@ -15,7 +15,7 @@ body {
 /* SANDWICH BUTTON TO HIDE ALLS THE buttons */
 
 .hidden {
-  display: hidden;
+  visibility: hidden;
 }
 
 /* ---- The board game design ---- */
