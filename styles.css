@@ -12,6 +12,11 @@ body {
     gap: 0.75rem; /* adds spacing between h1, button and input box */
 }
 
+.top-bar {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* JLPT TITLE DECORATION */
 #title {
   text-align: center;
