@@ -15,6 +15,7 @@ body {
 .top-bar {
   display:flex;
   align-items: center;
+  width: 100%;
   padding: 0 1rem;
 }
 
@@ -34,6 +35,10 @@ body {
 }
 
 /* SANDWICH BUTTON TO HIDE ALLS THE buttons */
+.dropdown {
+  position: absolute;
+  right: 0;
+}
 
 .hidden {
   display: none;
