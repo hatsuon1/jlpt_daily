@@ -42,6 +42,12 @@ body {
   display: inline-block; /* makes spans into something that can be animated in the future */
 }
 
+/* Player Guess FORM */
+.align-form {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Player input box  */
 #response {
     /* Size & Spacing */
