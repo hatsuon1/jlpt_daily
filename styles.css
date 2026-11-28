@@ -39,6 +39,9 @@ body {
 #menu-btn {
   font-size: 1.75rem;
   padding: 0.25rem 0.75rem;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .dropdown {
