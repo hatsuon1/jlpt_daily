@@ -14,9 +14,20 @@ body {
 
 .top-bar {
   display:flex;
-  justify-content: space-between;
   align-items: center;
+  padding: 0 1rem;
 }
+
+.menu-wrapper, .spacer{
+  flex: 1;
+}
+
+.menu-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: flex-end; /* pushes the button to the right */
+}
+
 /* JLPT TITLE DECORATION */
 #title {
   text-align: center;
